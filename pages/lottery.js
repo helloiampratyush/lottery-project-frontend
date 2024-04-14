@@ -31,6 +31,7 @@ export default function Lottery() {
             onError: (error) => console.log(error),
         });
     };
+    
 
     return (
         <div className="container mx-auto mt-24">
@@ -57,13 +58,14 @@ export default function Lottery() {
                     })
                 )}
             </div>
-
+            
             <div className="bg-stone-200 my-3">
-                <div className="text-2xl text-red-900 my-5 mx-3">
+            <div className=" text-2xl text-center text-green-700">Refund Section</div>
+            <div className="text-2xl text-red-900 my-5 mx-3">
                     Refunding of a particular lottery counter will only work if the condition has not been fulfilled, and the refund will be available after 24 hours after the deadline of the particular lottery.
-                </div>
-            </div>
-
+                </div> 
+           
+            
             <div className="flex justify-center  my-10">
                 <Input
                     label="Lottery Counter"
@@ -74,7 +76,7 @@ export default function Lottery() {
                     }}
                 />
             </div>
-
+            
             <div className="flex justify-center">
                 <button
                     type="button"
@@ -84,7 +86,7 @@ export default function Lottery() {
                     Apply
                 </button>
             </div>
-
+            </div>
             <div className="my-8 text-slate-600 text-2xl text-center">
                 Watch Winner announced  👇
             </div>

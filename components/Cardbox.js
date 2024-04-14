@@ -98,7 +98,7 @@ if(chaeckStatus){
                         <div className="text-xl font-bold text-red-800">Condition</div>
                         <div className="font-bold">Minimum Players Requirement: {minplayers}</div>
                         <div>**************************</div>
-                        <div className="font-bold">Participants Reward: 5 Token</div>
+                        <div className="font-bold">Participants Reward: 4 Token</div>
                         <div className="font-bold">Entrance Fee: {entranceFee / 1e18} ETH</div>
                         <div className="font-bold">{isActive ? "Active" : "Ended"}</div>
                     </div>

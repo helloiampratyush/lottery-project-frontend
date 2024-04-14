@@ -42,11 +42,6 @@ export default function Home() {
                                     <source src="/v1.mp4" type="video/mp4" />
                                 </video>
                             </div>
-                            <div className="m-4">
-                                <video width="320" height="240" controls preload="none">
-                                    <source src="/V2.mp4" type="video/mp4" />
-                                </video>
-                            </div>
                         </div>
                     </div>
                 </div> 
