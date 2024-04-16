@@ -29,10 +29,13 @@ export default function CARDBox({
             } 
          }
     }
-)           
+)          
 if(chaeckStatus){
-                setStatusActive(chaeckStatus);
+                (chaeckStatus);
 } 
+else{
+    setStatusActive(false);
+}
        
         }
     
@@ -79,7 +82,6 @@ if(chaeckStatus){
         return () => clearInterval(interval)
        
     }, [endTime,counterNo]);
-
     return (
         <div className="my-4 mx-auto"> {isStatusActive ?
             (<Card title={''} description={''} onClick={handleClick} className="w-full md:w-96">
