@@ -83,7 +83,7 @@ else{
        
     }, [endTime,counterNo]);
     return (
-        <div className="my-4 mx-auto"> {isActive ?
+        <div className="my-4 mx-auto"> {isActive||isStatusActive ?
             (<Card title={''} description={''} onClick={handleClick} className="w-full md:w-96">
                 <div className="p-4">
                     <div className="flex flex-col gap-2">
